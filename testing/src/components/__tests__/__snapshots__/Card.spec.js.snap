@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should match snapshot 1`] = `
+<ContactCard
+  email="john.smith@email.com"
+  first_name="John"
+  handleImportantClick={[Function]}
+  image="https://www.notarealurl.com/"
+  last_name="Smith"
+>
+  <span
+    style={
+      Object {
+        "display": "inline-block",
+        "margin": 10,
+        "width": 250,
+      }
+    }
+  >
+    <div>
+      <img
+        src="https://www.notarealurl.com/"
+      />
+      <button
+        onClick={[Function]}
+      >
+        Important Button!
+      </button>
+      <button
+        onClick={[Function]}
+      >
+        Counter Button!
+      </button>
+    </div>
+  </span>
+</ContactCard>
+`;

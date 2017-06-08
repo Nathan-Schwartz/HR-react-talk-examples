@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should match loaded snapshot 1`] = `
+<ConditionalLoader
+  data={
+    Object {
+      "present": true,
+    }
+  }
+  loading={false}
+>
+  <BasicComponent
+    data={
+      Object {
+        "present": true,
+      }
+    }
+    loading={false}
+  >
+    <span>
+      {"present":true}
+    </span>
+  </BasicComponent>
+</ConditionalLoader>
+`;
+
+exports[`Should match loading snapshot 1`] = `
+<ConditionalLoader
+  data={null}
+  loading={true}
+>
+  <img
+    src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"
+    style={
+      Object {
+        "height": 100,
+        "margin": "0 auto",
+        "width": 100,
+      }
+    }
+  />
+</ConditionalLoader>
+`;
